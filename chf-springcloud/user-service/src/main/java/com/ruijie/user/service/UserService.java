@@ -12,12 +12,12 @@ public class UserService {
     private UserMapper userMapper;
 
     public User queryById(Long id) {
-     /*   try {
-            Thread.sleep(3000);
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }*/
+//        try {
+//            Thread.sleep(3000);
+//
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
         return userMapper.selectByPrimaryKey(id);
 
     }
